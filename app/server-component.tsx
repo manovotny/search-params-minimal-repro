@@ -1,8 +1,4 @@
-import { ClientComponent } from "../client-component";
-
-// export const runtime = "edge";
-
-export default async function ProductPage({
+export function ServerComponent({
   params,
   searchParams,
 }: {
@@ -21,7 +17,6 @@ export default async function ProductPage({
         <code className="font-mono font-bold">id</code> should{" "}
         <span className="font-bold">NOT</span> be there.
       </p>
-      <ClientComponent />
     </>
   );
 }
