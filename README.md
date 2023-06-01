@@ -2,14 +2,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Public url: https://search-params-minimal-repro.vercel.app/
+- Run the development server: `npm run dev`
+- Public url: https://search-params-minimal-repro.vercel.app/
